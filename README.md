@@ -24,7 +24,7 @@ Facilitar el manejo de la información de los paquetes y organizar las actividad
 - Cierre de sesión
 
 ## Estado del proyecto
-Se desarrollaron las interfaces y funciones básicas de navegación y validación de formularios. La integración de la aplicación móvil con el backend y la base de datos está penddiente de validación.
+Se desarrollaron las interfaces y funciones básicas de navegación y validación de formularios. La integración de la aplicación móvil con el backend y la base de datos está pendiente de validación.
 
 ## Autora
 Valerie Ramirez Gonzalez

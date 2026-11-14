@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4A174">
+
+    <TextView
+        android:id="@+id/titulo_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menú principal"
+        android:textColor="#121212"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="60dp" />
+
+    <TextView
+        android:id="@+id/texto_bienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido al sistema"
+        android:textColor="#121212"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/titulo_menu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/btn_consultar_paquetes"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Consultar paquetes"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#121212"
+        app:layout_constraintTop_toBottomOf="@id/texto_bienvenida"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:id="@+id/btn_registrar_paquete"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Registrar paquete"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#121212"
+        app:layout_constraintTop_toBottomOf="@id/btn_consultar_paquetes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btn_entregar_paquete"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Entregar paquete"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#121212"
+        app:layout_constraintTop_toBottomOf="@id/btn_registrar_paquete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btn_cerrar_sesion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Cerrar sesión"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#BF4D0F"
+        app:layout_constraintTop_toBottomOf="@id/btn_entregar_paquete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

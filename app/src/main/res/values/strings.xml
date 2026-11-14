@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SistemaRecepcionPaqueteria</string>
+    <string name="titulo_principal">Sistema de Recepción de Paquetería</string>
+    <string name="bienvenida">Bienvenido a nuestro sistema</string>
+    <string name="iniciar_sesion">Iniciar sesión</string>
+
+    <string name="titulo_login">Iniciar sesión</string>
+    <string name="correo">Correo electrónico</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="volver">Volver a la pantalla principal</string>
+</resources>
